@@ -81,15 +81,15 @@ $(function() {
 	});
 
 	//Animation 
-	$(".section-head p, .section-head h2").animated("fadeInUp");
-	$(".section-descr p").animated("slideInRight");
+	//$(".section-head p, .section-head h2").animated("fadeInUp");
+	//$(".section-descr p").animated("slideInRight");
 	
-	$(".adv-wrap").animated("fadeInUp");
+	//$(".adv-wrap").animated("fadeInUp");
 
-	$(".task-wrap").animated("slideInLeft");
-	$(".task-img").animated("slideInRight");
+	//$(".task-wrap").animated("slideInLeft");
+	//$(".task-img").animated("slideInRight");
 
-	$(".team-item").animated("fadeInUp");
+	//$(".team-item").animated("fadeInUp");
 
 	//mnu controls
 
