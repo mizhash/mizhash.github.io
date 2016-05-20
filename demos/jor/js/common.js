@@ -1,4 +1,15 @@
 $(function() {
+	
+	function heightses() {
+		$(".demos-item p").height('auto').equalHeights();
+		$(".grid__item h2").height('auto').equalHeights();
+	}
+
+	$(window).resize(function() {
+		heightses();
+	});
+
+	heightses();
 
 	$(".grid__item").each(function(e) {
 
@@ -115,16 +126,7 @@ $(function() {
 		});
 	};
 
-	function heightses() {
-		$(".demos-item p").height('auto').equalHeights();
-		$(".grid__item title").height('auto').equalHeights();
-	}
-
-	$(window).resize(function() {
-		heightses();
-	});
-
-	heightses();
+	
 
 	//E-mail Ajax Send
 	//Documentation & Example: https://github.com/agragregra/uniMail
